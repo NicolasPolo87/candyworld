@@ -1,4 +1,4 @@
-const MyComponent = ({value, name, saludar, childern}) => {
+const MyComponent = ({value, name, saludar, children}) => {
     console.log(value);
     console.log(name);
     console.log(children);
