@@ -14,8 +14,8 @@ return (
                     <Nav.Link href="#features">Caramelos</Nav.Link>
                     <Nav.Link href="#chocolates">Chocolates</Nav.Link>
                     <Nav.Link href="#otros">Otros</Nav.Link>
-                    <Nav.Link href="#contacto">Contacto</Nav.Link>
-                    <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+{/*                     <Nav.Link href="#contacto">Contacto</Nav.Link>
+                    <Nav.Link href="#nosotros">Nosotros</Nav.Link> */}
                 </Nav>
             <CartWidget/>
         </Container>
