@@ -10,9 +10,15 @@ return (
                     Tienda de Golosinas
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Caramelos</Nav.Link>
-                    <Nav.Link href="#chocolates">Chocolates</Nav.Link>
+                    <Nav.Link as={Link} to='/'>
+                        Home
+                    </Nav.Link>
+                    <Nav.Link as={Link} to='/category/caramelos'>
+                        Caramelos
+                    </Nav.Link>
+                    <Nav.Link as={Link} to='/category/chocolates'>
+                        Chocolates
+                    </Nav.Link>
                     <Nav.Link href="#otros">Otros</Nav.Link>
 {/*                     <Nav.Link href="#contacto">Contacto</Nav.Link>
                     <Nav.Link href="#nosotros">Nosotros</Nav.Link> */}

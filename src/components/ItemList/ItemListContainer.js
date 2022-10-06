@@ -18,14 +18,14 @@ const ItemListContainer = ({greeting}) => {
     useEffect(() => {
         getProducts()
             .then((data) => setProducts(data))
-            .then(error) => console.warn(error))
+            .then((error) => console.warn(error))
     }, [])
 
     return (
         <Container>
             <h1>Productos</h1>
             <h3 className="greeting">{greeting}</h3>
-            <ItemList products={}/>
+            <ItemList products={products}/>
         </Container>
     );
 }
