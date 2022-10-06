@@ -6,7 +6,7 @@ import ItemListContainer from './components/ItemList/ItemListContainer';
 import MapComponent from './components/MapComponent';
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ItemDetailContainer from './components/ItemList/ItemDetailContainer';
+import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout';
 
